@@ -1,0 +1,78 @@
+linux cheatsheet
+from https://www.youtube.com/watch?v=HjuHHI60s44&list=PL6gx4Cwl9DGCkg2uj3PxUWhMDuTw3VKjM&index=1
+
+---------system----------
+
+$ info echo								(dipslays information about the command "echo". You can get out by clicking ctrl+z)
+$ neofetch 								(get acces to pc settings such as kernel, ram etc)
+$ clear 								(clears cluttered terminal)
+$ passwd								(changed the current password)
+$ echo "test"							(displays "test" on the screen)
+$ echo $test   							(displays the variable "test") 
+										(a variable is a placeholder that stores a value in a container with a name. a variable can be a string, a value, a file etc)
+$ echo my name is $test					(displays "my name is" with the variable tect)
+
+
+
+$ sudo 									(super user do)
+$ sudo apt 								(Advanced Package Tool)
+$ sudo apt install 						(install a package through super user)
+
+
+
+
+-h 										(help)
+-v 										(version)
+
+
+
+
+$ cd 									(change directory) 
+$ cd 									(if you only type this, you will get to your home dir)
+$ pwd 									(print name of current work directory)
+
+
+----------folders----------
+
+$ mkdir "name" 							(make name fodler where you are currently at)
+$ rmdir "name" 							(remove folder with that name)
+
+----------files----------
+
+$ cat 									(open files)
+$ nano 									(edit files)
+$ touch "name" 							(make a file in the current dir with that name. It only creates a file if it does not already exist)
+$ rm "name"								(remove the "name" file)
+$ rm *.txt								(remove all files with .txt extension)
+$ cp "oldname" "newname"				(copy the file, and give it the "newname")
+$ mv "oldname" "folder"/"newname"		(move a file called "name", into a folder called "folder")
+$ mv "oldname" "newname"				(move the "oldname" file in the same dir but change the name to "newname" + it deletes the old "oldname" file)
+				
+$ grep "word" "file"					(search for a "word" inside a "file" in that specific directory)
+$ diff "file1" "file2"					(shows the difference between 2 files)	
+
+
+
+$ ls 									(shows files)
+$ ls -l 								(shows detailsof files)
+$ ls -a 								(hidden . files)
+$ ls -la 								(shows hidden files + details)
+
+
+----------tips n tricks----------
+ls > "name"							(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
+
+ls >> "name"						(append the data from ls to the content of the "name" file)
+
+
+
+
+----------gotcha's----------
+
+linux is capital sensitive
+you can cycle trhough previous commands by using up and down arrows
+
+ctrl(right)+f 							(go into full ubuntu screen)
+
+
+
