@@ -51,8 +51,8 @@ $ mv "oldname" "newname"				(move the "oldname" file in the same dir but change 
 $ grep "word" "file"					(search for a "word" inside a "file" in that specific directory)
 $ diff "file1" "file2"					(shows the difference between 2 files)	
 
-ls > "name"							(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
-ls >> "name"						(append the data from ls to the content of the "name" file)
+ls > "name"								(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
+ls >> "name"							(append the data from ls to the content of the "name" file)
 
 
 $ ls 									(shows files)
@@ -70,13 +70,22 @@ $ ls -l
 	
 	first symbol can be "-" (file) or "d" (folder)
 	3 blocks of 3 symbols: - rw- rw- r--  or  d rwx rwx r-x 
-	1st block "rw-" is a permission describing what the owner  can do
-	2nd block "rw-" is a permission describing what the group  can do
-	3rd block "rw-" is a permission describing what everyone   can do
+	1st block "rw-" is a permission describing what the owner(u)  can do
+	2nd block "rw-" is a permission describing what the group(g)  can do
+	3rd block "rw-" is a permission describing what  everyone(o)  can do
 
 	"r" = read
 	"w" = write
 	"x" = execute
+
+	"u" = user
+	"g" = gorup
+	"o" = other users from outside
+$ chmod										(command to change the file and folder permissions)
+
+example:
+$ chmod	o+w test							(changes permission: it adds a write permission to "test" to the third block (other people))
+$ chmod u-x test							(changes permission: it subtracts a execute permission to "test" to the first block (users))
 
 
 
