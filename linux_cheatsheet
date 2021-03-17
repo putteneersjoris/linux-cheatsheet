@@ -58,6 +58,26 @@ $ ls -l 								(shows detailsof files)
 $ ls -a 								(hidden . files)
 $ ls -la 								(shows hidden files + details)
 
+----------file permissions----------
+
+example: let's analyze file permissions of a folder and a file
+$ cd Desktop
+$ ls -l
+	"-rw-rw-r-- 1 joris joris 2616 Mär 16 22:43 linux_cheatsheet"
+	"drwxrwxr-x 2 joris joris 4096 Mär 17 11:13 newfolder"
+	
+	first symbol can be "-" (file) or "d" (folder)
+	3 blocks of 3 symbols: - rw- rw- r--  or  d rwx rwx r-x 
+	1st block "rw-" is a permission describing what the user  can do
+	2nd block "rw-" is a permission describing what the group can do
+	3rd block "rw-" is a permission describing what everyone  can do
+
+	"r" = read
+	"w" = write
+	"x" = run
+
+
+
 
 ----------tips n tricks----------
 ls > "name"							(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
