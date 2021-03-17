@@ -111,9 +111,19 @@ chmod 777 test			: I give permission to everyone to do everything
 
 
 
+
+
+----------compress and decompress files & directories----------
+
+
+
+
+
+
+
 ----------tips n tricks----------
 
-
+if you give the first few letters of a file and press "TAB", ubuntu will figure out what file it is tjat you want
 
 ----------gotcha's----------
 
