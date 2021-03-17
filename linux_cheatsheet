@@ -81,11 +81,32 @@ $ ls -l
 	"u" = user
 	"g" = gorup
 	"o" = other users from outside
+
 $ chmod										(command to change the file and folder permissions)
 
 example:
 $ chmod	o+w test							(changes permission: it adds a write permission to "test" to the third block (other people))
 $ chmod u-x test							(changes permission: it subtracts a execute permission to "test" to the first block (users))
+
+this is a good way of setting indivdual perimission but it takes a while, we don't have tilme for that.
+there are shortcuts to give permissions. example:
+
+$ chmod 754 test
+7,5,4 respresents the individual blocks for user, group and other.
+
+4 stands for "read"
+2 stands for "write"
+1 stands for "execute"
+0 stands for "no permission"
+
+but there is no 7?
+
+7 is 4+2+1 which means	: I give the user perimission to read, write and execute this file
+5 is 4+1   which means	: I give the group permission to read and execute this file
+4 					  	: I give the other perimission to read this file
+
+common cases are:
+chmod 777 test			: I give permission to everyone to do everything
 
 
 
