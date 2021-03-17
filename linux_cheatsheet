@@ -51,6 +51,8 @@ $ mv "oldname" "newname"				(move the "oldname" file in the same dir but change 
 $ grep "word" "file"					(search for a "word" inside a "file" in that specific directory)
 $ diff "file1" "file2"					(shows the difference between 2 files)	
 
+ls > "name"							(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
+ls >> "name"						(append the data from ls to the content of the "name" file)
 
 
 $ ls 									(shows files)
@@ -68,22 +70,18 @@ $ ls -l
 	
 	first symbol can be "-" (file) or "d" (folder)
 	3 blocks of 3 symbols: - rw- rw- r--  or  d rwx rwx r-x 
-	1st block "rw-" is a permission describing what the user  can do
-	2nd block "rw-" is a permission describing what the group can do
-	3rd block "rw-" is a permission describing what everyone  can do
+	1st block "rw-" is a permission describing what the owner  can do
+	2nd block "rw-" is a permission describing what the group  can do
+	3rd block "rw-" is a permission describing what everyone   can do
 
 	"r" = read
 	"w" = write
-	"x" = run
+	"x" = execute
 
 
 
 
 ----------tips n tricks----------
-ls > "name"							(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
-
-ls >> "name"						(append the data from ls to the content of the "name" file)
-
 
 
 
@@ -95,5 +93,5 @@ you can cycle trhough previous commands by using up and down arrows
 ctrl(right)+f 							(go into full ubuntu screen)
 
 
-testing
+
 
