@@ -113,18 +113,21 @@ chmod 777 test			: I give permission to everyone to do everything
 
 
 
-----------compress and decompress files & directories----------
+----------compressing and decompressing files & directories----------
 
+#single files
 
+$ gzip "name"							(compress the "name" file, and adds it to a new file called "name.gz")
+$ gunzip "name.gz"						(decompresses the "name.gz" file)
 
-
+#multiple files
 
 
 
 ----------tips n tricks----------
 
-if you give the first few letters of a file and press "TAB", ubuntu will figure out what file it is tjat you want
-
+autocompletion of files: if you give the first few letters of a file and press "TAB", ubuntu will figure out what file it is tjat you want
+spaces in naming conventions: whenever you have a space in you name: "grocery list" becomes "grocery\ list" the "\" symbol tell subuntu: whatever character comes after, read is as a " ", and not a new command
 ----------gotcha's----------
 
 linux is capital sensitive
