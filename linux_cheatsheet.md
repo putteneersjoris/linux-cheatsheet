@@ -1,0 +1,137 @@
+linux cheatsheet
+from https://www.youtube.com/watch?v=HjuHHI60s44&list=PL6gx4Cwl9DGCkg2uj3PxUWhMDuTw3VKjM&index=1
+
+---------system----------
+
+$ info echo								(dipslays information about the command "echo". You can get out by clicking ctrl+z)
+$ neofetch 								(get acces to pc settings such as kernel, ram etc)
+$ clear 								(clears cluttered terminal)
+$ passwd								(changed the current password)
+$ echo "test"							(displays "test" on the screen)
+$ echo $test   							(displays the variable "test") 
+										(a variable is a placeholder that stores a value in a container with a name. a variable can be a string, a value, a file etc)
+$ echo my name is $test					(displays "my name is" with the variable tect)
+
+
+
+$ sudo 									(super user do)
+$ sudo apt 								(Advanced Package Tool)
+$ sudo apt install 						(install a package through super user)
+
+
+
+
+-h 										(help)
+-v 										(version)
+
+
+
+
+$ cd 									(change directory) 
+$ cd 									(if you only type this, you will get to your home dir)
+$ pwd 									(print name of current work directory)
+
+
+----------folders----------
+
+$ mkdir "name" 							(make name fodler where you are currently at)
+$ rmdir "name" 							(remove folder with that name)
+
+----------files----------
+
+$ cat 									(open files)
+$ nano 									(edit files)
+$ touch "name" 							(make a file in the current dir with that name. It only creates a file if it does not already exist)
+$ rm "name"								(remove the "name" file)
+$ rm *.txt								(remove all files with .txt extension)
+$ cp "oldname" "newname"				(copy the file, and give it the "newname")
+$ mv "oldname" "folder"/"newname"		(move a file called "name", into a folder called "folder")
+$ mv "oldname" "newname"				(move the "oldname" file in the same dir but change the name to "newname" + it deletes the old "oldname" file)
+				
+$ grep "word" "file"					(search for a "word" inside a "file" in that specific directory)
+$ diff "file1" "file2"					(shows the difference between 2 files)	
+
+ls > "name"								(take the output of "ls" and store it in a file called "name". if this operation happens again, it will overwrite previously existing data)
+ls >> "name"							(append the data from ls to the content of the "name" file)
+
+
+$ ls 									(shows files)
+$ ls -l 								(shows detailsof files)
+$ ls -a 								(hidden . files)
+$ ls -la 								(shows hidden files + details)
+
+----------file permissions----------
+
+example: let's analyze file permissions of a folder and a file
+$ cd Desktop
+$ ls -l
+	"-rw-rw-r-- 1 joris joris 2616 Mär 16 22:43 linux_cheatsheet"
+	"drwxrwxr-x 2 joris joris 4096 Mär 17 11:13 newfolder"
+	
+	first symbol can be "-" (file) or "d" (folder)
+	3 blocks of 3 symbols: - rw- rw- r--  or  d rwx rwx r-x 
+	1st block "rw-" is a permission describing what the owner(u)  can do
+	2nd block "rw-" is a permission describing what the group(g)  can do
+	3rd block "rw-" is a permission describing what  everyone(o)  can do
+
+	"r" = read
+	"w" = write
+	"x" = execute
+
+	"u" = user
+	"g" = gorup
+	"o" = other users from outside
+
+$ chmod										(command to change the file and folder permissions)
+
+example:
+$ chmod	o+w test							(changes permission: it adds a write permission to "test" to the third block (other people))
+$ chmod u-x test							(changes permission: it subtracts a execute permission to "test" to the first block (users))
+
+this is a good way of setting indivdual perimission but it takes a while, we don't have tilme for that.
+there are shortcuts to give permissions. example:
+
+$ chmod 754 test
+7,5,4 respresents the individual blocks for user, group and other.
+
+4 stands for "read"
+2 stands for "write"
+1 stands for "execute"
+0 stands for "no permission"
+
+but there is no 7?
+
+7 is 4+2+1 which means	: I give the user perimission to read, write and execute this file
+5 is 4+1   which means	: I give the group permission to read and execute this file
+4 					  	: I give the other perimission to read this file
+
+common cases are:
+chmod 777 test			: I give permission to everyone to do everything
+
+
+
+
+
+
+----------compress and decompress files & directories----------
+
+
+
+
+
+
+
+----------tips n tricks----------
+
+if you give the first few letters of a file and press "TAB", ubuntu will figure out what file it is tjat you want
+
+----------gotcha's----------
+
+linux is capital sensitive
+you can cycle trhough previous commands by using up and down arrows
+
+ctrl(right)+f 							(go into full ubuntu screen)
+
+
+
+
