@@ -3,9 +3,12 @@ vscode cheatsheet
 ---------shortcuts----------
 
 Alt+click = multiple selections
-
-
+Ctrl + Shift + l = select and change the same word
+Ctrl + K   V = open markdown viewer
 ---------extensions----------
 ---------markdown----------
 
 ---------vscode-pandoc----------
+
+
+
