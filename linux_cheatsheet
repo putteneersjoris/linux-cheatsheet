@@ -16,6 +16,7 @@ $ echo my name is $test					(displays "my name is" with the variable tect)
 
 $ sudo 									(super user do)
 $ sudo apt 								(Advanced Package Tool)
+$ sudo apt-get update					(Update apt)
 $ sudo apt install 						(install a package through super user)
 
 
