@@ -122,6 +122,8 @@ $ gunzip "name.gz"						(decompresses the "name.gz" file)
 
 #multiple files
 
+$ tar cvf  name.tar	file1.txt file2.txt			(create a compressed tar file "name.tar" with the files: file1.txt & file2.txt. c = create something, v = display that in the terminal, f = file-options)
+$ tar xvf name.tar								(extract the "name.tar" file. x = extract)
 
 
 ----------tips n tricks----------
