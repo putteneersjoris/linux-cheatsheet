@@ -94,6 +94,9 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
     ![tux](https://raw.githubusercontent.com/putteneersjoris/linux-cheatsheet/master/tux.png)
 
+## this is how to imbed **youtube videos**
+
+<a <iframe width="560" height="315" src="https://www.youtube.com/embed/HvHs43v8YI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> a>
 
 ### this is how to add **code blocks**
 
@@ -143,24 +146,6 @@ VEX code output result:
 ```
 there are 25 even numbers between 0 and 50
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## this is how to add **color** 
 
