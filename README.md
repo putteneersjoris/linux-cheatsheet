@@ -90,7 +90,9 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
     [me with jobot]: https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg
 
-2. from the pc
+2. from the github rep
+
+    ![tux](https://raw.githubusercontent.com/putteneersjoris/linux-cheatsheet/master/tux.png)
 
 
 
