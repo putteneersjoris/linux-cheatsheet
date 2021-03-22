@@ -96,9 +96,10 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
 ## this is how to imbed **youtube videos**
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+![this video](<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+))
 
 
 ### this is how to add **code blocks**
