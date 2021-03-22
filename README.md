@@ -67,4 +67,10 @@ I really like this [guy](https://jorisputteneers.tumblr.com/)
 
 ( we'll have to use html, and a parser who supports html)
 
-<span style="color:red">some ***red** text</span>
+<span style="color:red">some **red** text</span>
+
+<span style="color: green"> Some green text </span>
+
+This doesn't work:
+
+<font color="green"> Some green text </font>
