@@ -96,8 +96,7 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
 ## this is how to imbed **youtube videos**
 
-![](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
+![rickrolled](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### this is how to add **code blocks**
 
