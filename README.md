@@ -5,8 +5,13 @@
 ##### this is a header
 ###### try this
 
+
+[me with jobot]: https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg
+
+[tux]: https://raw.githubusercontent.com/putteneersjoris/linux-cheatsheet/master/tux.png
+
 you can add lines using "tab"     
-and it actually works   
+and it actually works->"tab"  
 like this
 
 
@@ -17,7 +22,6 @@ this one is ***bold italic***
 ### this is how you add **line breaks**
 <br>
 <br>
-<br>
 
 > this is how you write a "blockquote"   
 >> nesting 
@@ -25,18 +29,18 @@ this one is ***bold italic***
 
 <br>
 <br>
-<br>
+
+### let's talk lists    
 
 ### **non-ordered lists**
+<br>
 
->### embed other elements   
-> - like this
-> - or this    
->     - or like this  
->     - or so
-> - or maybe this  
->    
-> looks *pretty* **good**
+### embed other elements   
+ - like this
+ - or this    
+     - or like this  
+     - or so
+ - or maybe this  
 
 ### **ordered lists**
 1. test
@@ -47,6 +51,14 @@ this one is ***bold italic***
       2. and another
    2. test
 4. test  
+
+### embed features
+>  1.test
+>   - test
+>   - [test](www.google.com) 
+> 
+> 2.test
+>  
 
 
 <br>
@@ -81,22 +93,12 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
     in text ![](https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg)
 
-
-
     or with a variable
     ![][me with jobot]
 
-
-
-    [me with jobot]: https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg
-
 2. from the github rep
 
-    ![tux](https://raw.githubusercontent.com/putteneersjoris/linux-cheatsheet/master/tux.png)
-
-## this is how to imbed **youtube videos**
-
-[rickrolled](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+    ![tux][tux]
 
 ### this is how to add **code blocks**
 
@@ -151,8 +153,15 @@ there are 25 even numbers between 0 and 50
 
 ( we'll have to use html, and a parser who supports html. git for example, does not support html)
 
-<span style="color:red">some **red** text</span>
+<span style="color:red">some **red** text</span>    
+<span style="color:blue">some **blue** text</span>   
+<span style="color:green">some **green** text</span>  
+<span style="color:yellow">some **yellow** text</span>     
+<span style="color:brown">some **brown** text</span>    
+<span style="color:black">some **black** text</span>    
 
-or we'll use emoji's as colored marks
+or we'll use emoji's as colored markers
 
 🔴🟠🟡🟢🔵🟣🟤⚫💡
+
+___
