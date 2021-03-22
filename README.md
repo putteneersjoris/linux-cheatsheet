@@ -5,8 +5,9 @@
 ##### this is a header
 ###### try this
 
-you can add lines usting tab     
+you can add lines using "tab"     
 and it actually works   
+like this
 
 
 this one is **bold**    
@@ -33,7 +34,6 @@ this one is ***bold italic***
 > - or this    
 >     - or like this  
 >     - or so
->  
 > - or maybe this  
 >    
 > looks *pretty* **good**
@@ -51,12 +51,14 @@ this one is ***bold italic***
 
 <br>
 
-##### this is how to add a seperator
+## this is how to add a **seperator**
+<br>
+
 ___
 
 <br>
 
-#### this is how to add **links**
+## this is how to add **links**
 
 <br>
 
@@ -68,11 +70,27 @@ I really like this [guy](https://jorisputteneers.tumblr.com/)
 
 **inline style link with title**
 
-i really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a cool guy you know")
+I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a cool guy you know")
 
 
 <br>
-<br>
+
+## this is how to add **images**
+
+1. from websites
+
+    in text ![](https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg)
+
+
+
+    or with a variable
+    ![][me with jobot]
+
+
+
+    [me with jobot]: https://64.media.tumblr.com/e91f2aebada91eb434526d4e3a69aecd/629e195c885c6ee5-78/s1280x1920/dbab335118b622ddd49c1695b97428a5036df9ab.jpg
+
+2. from the pc
 
 
 
@@ -89,16 +107,14 @@ i really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
 
 
-### **this is how to add color** 
 
-( we'll have to use html, and a parser who supports html)
+
+## this is how to add **color** 
+
+( we'll have to use html, and a parser who supports html. git for example, does not support html)
 
 <span style="color:red">some **red** text</span>
 
+or we'll use emoji's as colored marks
 
-----
-
-<br>
-
-### **adding a bit of color with emoji's** ###
 🔴🟠🟡🟢🔵🟣🟤⚫💡
