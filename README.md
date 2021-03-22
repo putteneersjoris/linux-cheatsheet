@@ -99,30 +99,49 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
 inline `code` has \`backtips` to it 
 
+these pieces of code will count the even numbers between a starting value and an end value. 
+
 <br>
+
+#### **Python syntax**
 
 ```python
 def count_even_numbers(begin, end):
     counter = 0
     for i in range (begin, end):
-
         if i%2 ==0:
-            counter +=1
-            
+            counter +=1    
     print("there are: ",counter, "even numbers between :",begin, " and ",end,)
-
 def main()
     count_even_numbers(0,50)
-
 main()
 
 ```
+Python code output result: 
+```
+there are 25 even numbers between 0 and 50
+```
+
+#### **C syntax**
 ```C++
-v@P = set(0,1,1);
+function void count_even_numbers(int begin; int end;){
+    
+    int count = 0;
+    for(int i = begin ; i < end; i++ ){   
+        if(i%2){count += 1;}       
+      }
+    printf("%s\n","there are "+itoa(count)+" even numbers between "+itoa(begin)+" and " + itoa(end));
+   }
+   
+function void main(){count_even_numbers(1,50);}
+    
+main();
 
+```
+VEX code output result:
 
-
-
+```
+there are 25 even numbers between 0 and 50
 ```
 
 
