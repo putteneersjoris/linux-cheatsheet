@@ -96,7 +96,7 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
 
 ## this is how to imbed **youtube videos**
 
-<a <iframe width="560" height="315" src="https://www.youtube.com/embed/HvHs43v8YI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HvHs43v8YI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### this is how to add **code blocks**
 
