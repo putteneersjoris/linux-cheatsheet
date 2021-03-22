@@ -95,6 +95,38 @@ I really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a c
     ![tux](https://raw.githubusercontent.com/putteneersjoris/linux-cheatsheet/master/tux.png)
 
 
+### this is how to add **code blocks**
+
+inline `code` has \`backtips` to it 
+
+<br>
+
+```python
+def count_even_numbers(begin, end):
+    counter = 0
+    for i in range (begin, end):
+
+        if i%2 ==0:
+            counter +=1
+            
+    print("there are: ",counter, "even numbers between :",begin, " and ",end,)
+
+def main()
+    count_even_numbers(0,50)
+
+main()
+
+```
+```C++
+v@P = set(0,1,1);
+
+
+
+
+```
+
+
+
 
 
 
