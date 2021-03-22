@@ -1,0 +1,20 @@
+notes to push to github
+1. create a new repo
+2. open terminal
+3. set local directory/ go to file and set git bash here
+4. type "ls" to see a list of all available files
+5. innitialize my local directory "git init"
+6. add files in my local directory to the git repo. type "git add ."
+7. to see all your files; type "git status". 
+8. commit the files to the repo. git commit -m "second commit"
+9. specify the remote repository url  "git remote add origin https://github.com/putteneersjoris/HOUDINI-SHOT-DIRECTORY"
+10. push code "git push -u origin master
+
+notes to pull from github
+1. go to the git repo and grab the url  https://github.com/baudhaus/houdini-as-code
+2. go to a specific directory that you want your files to pull to git pull https://github.com/baudhaus/houdini-as-code
+
+and now redo "notes ot push to github"
+
+
+

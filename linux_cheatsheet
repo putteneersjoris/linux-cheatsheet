@@ -40,6 +40,7 @@ $ pwd 									(print name of current work directory)
 
 $ mkdir "name" 							(make name fodler where you are currently at)
 $ rmdir "name" 							(remove folder with that name)
+$ rm -r "name								(removes the folder and it's content. -r = recursivly)
 
 ----------files----------
 
