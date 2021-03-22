@@ -58,10 +58,36 @@ ___
 
 #### this is how to add **links**
 
+<br>
+
+**inline style link**
+
 I really like this [guy](https://jorisputteneers.tumblr.com/)
 
 <br>
+
+**inline style link with title**
+
+i really like this [guy](https://jorisputteneers.tumblr.com/ "this really is a cool guy you know")
+
+
 <br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### **this is how to add color** 
 
@@ -70,4 +96,9 @@ I really like this [guy](https://jorisputteneers.tumblr.com/)
 <span style="color:red">some **red** text</span>
 
 
-🔴🟠🟡🟢🔵🟣🟤⚫
+----
+
+<br>
+
+### **adding a bit of color with emoji's** ###
+🔴🟠🟡🟢🔵🟣🟤⚫💡
