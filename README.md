@@ -69,8 +69,5 @@ I really like this [guy](https://jorisputteneers.tumblr.com/)
 
 <span style="color:red">some **red** text</span>
 
-<span style="color: green"> Some green text </span>
 
-This doesn't work:
-
-<font color="green"> Some green text </font>
+🔴🟠🟡🟢🔵🟣🟤⚫
