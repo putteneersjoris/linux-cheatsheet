@@ -114,7 +114,8 @@ foreach(int k; string i; days_of_the_week){
 
 visualization of one cycle: "Mo" is the first element of "days_of_the_week". "Mo"is copied to value **i**. The numerator **k** diplays the position in the array which is 0.
 
-![][foreach_with_numerator]
+
+![](https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/numerator.jpg)
 
 
 
@@ -127,6 +128,6 @@ sprintf();
 
 
 <br>
-[foreach_with_numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/foreach_with_numerator.jpg
+[numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/numerator.jpg
 
 [vertical_text]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/vertical_text.png
