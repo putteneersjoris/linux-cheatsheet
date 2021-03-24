@@ -1,12 +1,11 @@
 
 
-## **foreach loops** ###
-
-
-### **simple form** ###
+# **foreach loops** 
 
 <br>
 <br>
+
+## **simple form**
 
 This loops over the members of **array** . For each iteration, it **copies** the current member to value " i" and then executes the given statement.
 
@@ -73,7 +72,7 @@ s@v_text = newtext;
 <br>
 <br>
 
-### **enumerated form** ##
+## **enumerated form**
 
 *enumeration:  To enumerate is to mention things one by one or to make clear the number of things. An example of enumerate is when you list all of an author's works one by one.*
 
@@ -82,8 +81,6 @@ s@v_text = newtext;
 The foreach with enumerated form lets you specify an **enumeration variable**:
 
 For each iteration, **this form assigns the current position in the array to index**, copies the current member to value, and executes statement. For example:
-
-
 
 <br>
 <br>
@@ -114,57 +111,23 @@ foreach(int k; string i; days_of_the_week){
 ```
 `result:  Mo is day 1 of the week  Thu is day 2 of the week  Wed is day 3 of the week  Thur is day 4 of the week  Fri is day 5 of the week  Sat is day 6 of the week  Sun is day 7 of the week `
 
+
+visualization of one cycle: "Mo" is the first element of the string days_of_the_week.     
+it is copied to value **string i**. The numerator **int k** diplays the position in the array which is 0.
+
 ![][foreach_with_numerator]
 
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-```
-```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
----
+# functions
 
-
-
-
-
-
-
-
-
-
-
-# functions #
-
-printf(); 
-
-%s\n =
-
-<br>
-
+printf();   
 sprintf();
 
+💡 %s\n =
 
 
-
-
+<br>
 [foreach_with_numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/foreach_with_numerator.jpg
 
 [vertical_text]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/vertical_text.png
