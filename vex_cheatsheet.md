@@ -1,21 +1,28 @@
-## foreach loops ###
 
-simple form
+
+## **foreach loops** ###
+
+
+### **simple form** ###
 
 <br>
+<br>
 
-This loops over the members of array. For each iteration, it **copies** the current member to value " int i" and then executes statement.
+This loops over the members of **array** . For each iteration, it **copies** the current member to value " i" and then executes the given statement.
 
-example1 with an integer array
+**example1: print integer array**
 ```` C
 int array[] = {1,2,3,4,5,6};
 foreach(int i; array){
     printf("%d", i);
     }
 ````
-`result: 123456`
+`result "printf": 123456`
 
-example 2 with a float array
+<br>
+<br>
+
+**example 2: print float array**
 
 ```C
 float float_array[] = {0.0,1.0,2.0,3.0,4.0,5.0,6.0};
@@ -23,12 +30,79 @@ foreach(float i; float_array){
         printf("%f",i);
         }
 ```
-example 3 with a string array
+`result "printf": 0.0,1.0,2.0,3.0,4.0,5.0,6.0`
+
+<br>
+<br>
+
+**example 3: print string array**
+
+```C++
+string string_array[] = {"A","B","C","D","E"};
+foreach(string i; string_array){
+    printf("%s", i);
+    }
+```
+`result "printf": ABCDE`  
+
+<br>
+<br>
+
+**example 4: make horizontal text, vertical using a foreachloop (simple form).**
+
+```C
+string h_text = "hello world";
+string newtext;
+foreach(string i; h_text){
+    append(newtext,i+"\n");
+}
+s@v_text = newtext;
+```
+`result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
+
+
+💡 **"\n"** means "make a new line"
+
+<br>
+<br>
+<br>
+
+### **enumerated form** ##
+
+*enumeration:  To enumerate is to mention things one by one or to make clear the number of things. An example of enumerate is when you list all of an author's works one by one.*
+
+<br>
+
+The foreach with enumerated form lets you specify an **enumeration variable**:
+
+For each iteration, **this form assigns the current position in the array to index**, copies the current member to value, and executes statement. For example:
+
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ```
-
 ```
-enumerated form
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+---
 
 
 
