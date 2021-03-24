@@ -66,7 +66,7 @@ s@v_text = newtext;
 
 ![][vertical_text]
 
-💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, referencing the first channel 0. **details("../attribwrangle2","v_text")** will try to fetch a string attribute. there is no third argument.  Notice the "s" on details.
+💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, referencing the first channel 0. **details("../attribwrangle2","v_text")** will try to fetch a string attribute. there is no third argument.  Notice the "s" on details.   
 💡 A spare input can be added. And should be referenced as "-1" or "chs("spare_input0")" in the SOP.
 
 <br>
