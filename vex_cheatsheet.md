@@ -1,11 +1,11 @@
 
 
-# **foreach loops** 
+# **Foreach loops** 
 
 <br>
 <br>
 
-## **simple form**
+## **Simple form**
 
 This loops over the members of **array** . For each iteration, it **copies** the current member to value " i" and then executes the given statement.
 
@@ -59,26 +59,26 @@ s@v_text = newtext;
 ```
 `result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
 
-💡 take notice that **h_text** is **not an array**. the foreach block will loop over every element in the text. if you would want to foreach block to loop over every word. Replace ``string h_text = "hello world";`` by ``string h_text[] = {"hello", "world"};``  or by using the **split** function ``string h_text[] = split("hello world");`` which will result in `s@v_text:hello¶world`  
+💡 take notice that **h_text** is **not an array**. the foreach loop will loop over every element in the text. if you want the foreach loop to loop over every word. Replace ``string h_text = "hello world";`` by ``string h_text[] = {"hello", "world"};``  or by using the **split** function ``string h_text[] = split("hello world");`` which will result in `s@v_text:hello¶world`  
 💡 **"\n"** means "make a new line"     
 💡 **¶** is called the pilcrow or paragraph mark
 
 ![][vertical_text]
 
-💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, refernceing the first channel "0". **details(-1,"v_text")** will try to fetch a string attribute. there is no third argument.  
-💡 a spare input can be added. And should be referenced as "-1" of "chs("spare_input0")" in the font sop.
+💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, referencing the first channel 0. **details("../attribwrangle2","v_text")** will try to fetch a string attribute. there is no third argument.  Notice the "s" on details.
+💡 A spare input can be added. And should be referenced as "-1" or "chs("spare_input0")" in the SOP.
 
 <br>
 <br>
 <br>
 
-## **enumerated form**
+## **Enumerated form**
 
 *enumeration:  To enumerate is to mention things one by one or to make clear the number of things. An example of enumerate is when you list all of an author's works one by one.*
 
 <br>
 
-The foreach with enumerated form lets you specify an **enumeration variable**:
+The foreach loop with enumerated form lets you specify an **enumeration variable**:
 
 For each iteration, **this form assigns the current position in the array to index**, copies the current member to value, and executes statement. For example:
 
@@ -102,7 +102,7 @@ printf("%s",newtext);
 <br>
 <br>
 
-**example 2: print which day of the week it is in the format: "Mo is the 1 day of the week (using the enumerated form)**
+**example 2: print which day of the week it is in the format: "Mo is day 1 of the week (using the enumerated form)**
 ```C
 string days_of_the_week[] = {"Mo","Thu","Wed","Thur","Fri","Sat","Sun"};
 foreach(int k; string i; days_of_the_week){
@@ -112,8 +112,7 @@ foreach(int k; string i; days_of_the_week){
 `result:  Mo is day 1 of the week  Thu is day 2 of the week  Wed is day 3 of the week  Thur is day 4 of the week  Fri is day 5 of the week  Sat is day 6 of the week  Sun is day 7 of the week `
 
 
-visualization of one cycle: "Mo" is the first element of the string days_of_the_week.     
-it is copied to value **string i**. The numerator **int k** diplays the position in the array which is 0.
+visualization of one cycle: "Mo" is the first element of "days_of_the_week". "Mo"is copied to value **i**. The numerator **k** diplays the position in the array which is 0.
 
 ![][foreach_with_numerator]
 
