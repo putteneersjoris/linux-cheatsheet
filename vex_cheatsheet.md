@@ -60,11 +60,14 @@ s@v_text = newtext;
 ```
 `result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
 
-
+💡 take notice that ``**h_text**`` is ``**not an array**``. the foreach block will loop over every element in the text. if you would want to foreach block to loop over every word. Replace ``**string h_text = "hello world";**`` by ``**string h_text[] = {"hello", "world"};**``  or by using the **split** function ``**string h_text[] = split("hello world");**`` which will reuslt in `result s@v_text:hello¶world`  
 💡 **"\n"** means "make a new line"     
 💡 **¶** is called the pilcrow or paragraph mark
 
 ![][vertical_text]
+
+💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, refernceing the first channel "0". **details(-1,"v_text")** will try to fetch a string attribute. there is no third argument.  
+💡 a spare input can be added. And should be referenced as "-1" of "chs("spare_input0")" in the font sop.
 
 <br>
 <br>
@@ -87,10 +90,18 @@ For each iteration, **this form assigns the current position in the array to ind
 
 **example 1: add the "place" of the current element to that element and print it out**
 
+```C
+string text = "Hello Wold";
+string newtext;
+foreach(int j; string i; text){
+    append(newtext, i + itoa(j)); 
+}
+printf("%s",newtext);
 ```
-ss
+`result: H0e1l2l3o4 5W6o7l8d9 `
 
-```
+💡 the **"itoa"** function returns a string value from an integer.
+
 <br>
 
 <br>
