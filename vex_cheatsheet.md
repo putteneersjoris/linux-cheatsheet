@@ -61,7 +61,10 @@ s@v_text = newtext;
 `result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
 
 
-💡 **"\n"** means "make a new line"
+💡 **"\n"** means "make a new line"     
+💡 **¶** is called the pilcrow or paragraph mark
+
+![][vertical_text]
 
 <br>
 <br>
@@ -79,6 +82,15 @@ For each iteration, **this form assigns the current position in the array to ind
 
 
 
+<br>
+<br>
+
+**example 1: add the "place" of the current element to that element and print it out**
+
+```
+ss
+
+```
 <br>
 
 <br>
@@ -123,3 +135,8 @@ printf();
 <br>
 
 sprintf();
+
+
+
+
+[vertical_text]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/vertical_text.png
