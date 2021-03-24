@@ -115,7 +115,7 @@ foreach(int k; string i; days_of_the_week){
 
 visualization of one cycle: "Mo" is the first element of "days_of_the_week". "Mo"is copied to value **i**. The numerator **k** diplays the position in the array which is 0.
 
-![][//numerator]
+![][numerator]
 
 <br>
 <br>
