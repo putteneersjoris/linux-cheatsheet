@@ -1,6 +1,7 @@
 
+# Loops and flow control
 
-# **Foreach loops** 
+# **1. Foreach loops** 
 
 <br>
 <br>
@@ -114,20 +115,65 @@ foreach(int k; string i; days_of_the_week){
 
 visualization of one cycle: "Mo" is the first element of "days_of_the_week". "Mo"is copied to value **i**. The numerator **k** diplays the position in the array which is 0.
 
+![][//numerator]
 
-![][numerator]
+<br>
+<br>
+<br>
 
+# **2. For loops**
 
+<br>
+<br>
+   
+i++ vs ++i
+
+TO BE CONTINUED
+
+what is foo? 
+
+---
 
 # functions
 
-printf();   
-sprintf();
+## **printf() & sprintf()**
+`void printf(format, ... )` `string sprintf(format, ... )`
+
+<br>
+<br>
+
+whilest ``printf()`` returns a void, ``sprintf()`` returns the result as a string instead of printing it.
+
+When a % symbol is found in the format string, an argument will be printed out in the format specified by the characters following the % symbol. 
+
+
+- %f print a float
+- %d print a integer 
+- %e print a float vector
+- %p print an integer vector
+- %s print a string
+- %x print a variable in hexidecimal
+
+examples: 
 
 💡 %s\n =
 
+TO BE CONTINUED
 
-<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
