@@ -60,7 +60,7 @@ s@v_text = newtext;
 ```
 `result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
 
-💡 take notice that ``**h_text**`` is ``**not an array**``. the foreach block will loop over every element in the text. if you would want to foreach block to loop over every word. Replace ``**string h_text = "hello world";**`` by ``**string h_text[] = {"hello", "world"};**``  or by using the **split** function ``**string h_text[] = split("hello world");**`` which will reuslt in `result s@v_text:hello¶world`  
+💡 take notice that **h_text** is **not an array**. the foreach block will loop over every element in the text. if you would want to foreach block to loop over every word. Replace ``string h_text = "hello world";`` by ``string h_text[] = {"hello", "world"};``  or by using the **split** function ``string h_text[] = split("hello world");`` which will result in `s@v_text:hello¶world`  
 💡 **"\n"** means "make a new line"     
 💡 **¶** is called the pilcrow or paragraph mark
 
@@ -101,6 +101,20 @@ printf("%s",newtext);
 `result: H0e1l2l3o4 5W6o7l8d9 `
 
 💡 the **"itoa"** function returns a string value from an integer.
+
+<br>
+<br>
+
+**example 2: print which day of the week it is in the format: "Mo is the 1 day of the week (using the enumerated form)**
+```C
+string days_of_the_week[] = {"Mo","Thu","Wed","Thur","Fri","Sat","Sun"};
+foreach(int k; string i; days_of_the_week){
+    printf(" %s is day %d of the week ",i,k+1);  
+    }
+```
+`result:  Mo is day 1 of the week  Thu is day 2 of the week  Wed is day 3 of the week  Thur is day 4 of the week  Fri is day 5 of the week  Sat is day 6 of the week  Sun is day 7 of the week `
+
+![][foreach_with_numerator]
 
 <br>
 
@@ -149,5 +163,8 @@ sprintf();
 
 
 
+
+
+[foreach_with_numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/foreach_with_numerator.jpg
 
 [vertical_text]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/vertical_text.png
