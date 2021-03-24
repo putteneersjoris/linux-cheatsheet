@@ -128,6 +128,10 @@ sprintf();
 
 
 <br>
-[numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/numerator.jpg
 
+
+
+
+
+[numerator]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/numerator.jpg
 [vertical_text]: https://github.com/putteneersjoris/linux-cheatsheet/blob/master/images/vertical_text.png
