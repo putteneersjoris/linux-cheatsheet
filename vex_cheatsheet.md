@@ -1,7 +1,55 @@
+# **Datatypes** 
 
-# Loops and flow control
+## integer
+integer values  
+0,10,-10,1578
 
-# **1. Foreach loops** 
+
+## float
+## vector
+
+## matrix
+## string
+## struct
+## dictionary
+## bsdf
+
+>💡     
+> ### scientific notation for small and large numbers:     
+>this is the standard form 5,3*10^5
+>
+>way of working:     
+>
+>Find the first decimal point. If there is no decimal, go to the end of the number. Then **move** the decimal point over to **the first true decimal point and count the steps**.       
+if you move the decimal point to the **left**, your number is **positive**, if you move the decmal point to the **right**, your number is **negative**.
+>
+>
+>2400 -> 2400.0-> 2.400 (move 3 steps to the left) ->  2.4*10^3     
+>0.00016 -> 00001.6   (move 4 steps to the right) -> 1.6*10^-4   
+>0.05 -> 5.0*10^-2
+>15.0169888888 
+>
+>"10 to the power of" can be replaced by "e" and this is the format Houdini uses. so:    
+>`2.400 = 2.4e3`     
+>``0.00016 = 1.6e-4``    
+>
+><br>
+>
+>**case study:**     
+>
+>
+>```C
+>float precision = 1e-4;
+>vector N = rint(v@N/precision)*precision;
+>s@name = sprintf("%s", N);
+>```
+>`result: `
+
+----
+
+# **Loops and flow control**
+
+# 1. Foreach loops*
 
 <br>
 <br>
@@ -60,13 +108,14 @@ s@v_text = newtext;
 ```
 `result s@v_text: h¶e¶l¶l¶o¶ ¶w¶o¶r¶l¶d¶` 
 
-💡 take notice that **h_text** is **not an array**. the foreach loop will loop over every element in the text. if you want the foreach loop to loop over every word. Replace ``string h_text = "hello world";`` by ``string h_text[] = {"hello", "world"};``  or by using the **split** function ``string h_text[] = split("hello world");`` which will result in `s@v_text:hello¶world`  
-💡 **"\n"** means "make a new line"     
+>💡 take notice that **h_text** is **not an array**. the foreach loop will loop over every  element in the text. if you want the foreach loop to loop over every word. Replace ``string >h_text = "hello world";`` by ``string h_text[] = {"hello", "world"};``  or by using the **split** function ``string h_text[] = split("hello world");`` which will result in `s@v_text:hello¶world`  
+
+> 💡 **"\n"** means "make a new line"     
 💡 **¶** is called the pilcrow or paragraph mark
 
 ![][vertical_text]
 
-💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, referencing the first channel 0. **details("../attribwrangle2","v_text")** will try to fetch a string attribute. there is no third argument.  Notice the "s" on details.   
+>💡 **detail("../attribwrangle2","v_text",0)** will try to fetch a integer attribute, referencing the first channel 0. **details("../attribwrangle2","v_text")** will try to fetch a string attribute. there is no third argument.  Notice the "s" on details.   
 💡 A spare input can be added. And should be referenced as "-1" or "chs("spare_input0")" in the SOP.
 
 <br>
