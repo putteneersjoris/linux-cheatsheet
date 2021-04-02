@@ -2,7 +2,7 @@
 
 <br>
 
-this is a collection of cheatsheets I use on a daily basis.         
+This is a collection of cheatsheets I use on a daily basis.         
 
 currently 5 cheatsheets are being maintained on a weekly basis.
 
