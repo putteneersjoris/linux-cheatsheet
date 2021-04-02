@@ -1,6 +1,7 @@
 vscode cheatsheet
 
 ---------shortcuts----------
+    $code "name"                            open "name" document in vscode 
 
 Alt+click = multiple selections
 Ctrl + Shift + l = select and change the same word
