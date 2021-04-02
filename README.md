@@ -4,7 +4,7 @@
 
 this is a collection of cheatsheets I use on a daily basis.         
 
-currently 5 cheatshets are being maintained on a weekly basis.
+currently 5 cheatsheets are being maintained on a weekly basis.
 
 cheatsheets include:    
 
