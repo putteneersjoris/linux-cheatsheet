@@ -43,7 +43,7 @@ $ rmdir "name" 							(remove folder with that name)
 $ rm -r "name								(removes the folder and it's content. -r = recursivly)
 
 ----------files----------
-
+$ xdg-open								(open files with the native program. example: ".hip" files will automatically open with houdini)
 $ cat 									(open files)
 $ nano 									(edit files)
 $ touch "name" 							(make a file in the current dir with that name. It only creates a file if it does not already exist)
