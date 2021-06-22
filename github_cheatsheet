@@ -12,7 +12,7 @@ notes to push to github
 
 notes to pull from github
 1. go to the git repo and grab the url  https://github.com/baudhaus/houdini-as-code
-2. go to a specific directory that you want your files to pull to git pull https://github.com/baudhaus/houdini-as-code
+2. go to a specific directory that you want your files to pull to git pull https://github.com/baudhaus/houdini-as-code (you can add the branch after this to only pull a specific branch. ex master)
 
 and now redo "notes ot push to github"
 
